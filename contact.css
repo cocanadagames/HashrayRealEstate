@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/BG_contact.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    margin-left: 14%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px;
+    color: #6B6B6B;
+}
+
+.myNav {
+    width: 100%;
+    --bs-bg-opacity: 0;
+}
+
+.navbar-nav {
+    margin-left: 10%;
+}
+
+.nav-link {
+    margin: 0px 24px 0px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6B6B6B;
+}
+
+.contactContainer {
+    width: 70%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.contactContainer h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    color: #232528;
+}
+
+.contactContainer p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #232528;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.email,
+.mobile {
+    display: flex;
+}
+
+.email p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #232528;
+    margin-left: 8px;
+}
+
+.mobile p {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #232528;
+    margin-left: 8px;
+}
+
+
+.PricingContainer {
+    width: 72vw;
+    height: auto;
+    /* background-color: antiquewhite; */
+    margin-top: 40px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPricing {
+    margin: auto;
+    margin: 12px 24px 12px 24px;
+    min-height: 400px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardTop {
+    /* background-color: #56CCF2; */
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
+    height: 160px;
+    border-radius: 12px 12px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer {
+    align-self: flex-end;
+    margin: 0px 16px;
+}
+
+.cardIcon {
+    margin: 16px 0px 0px 24px;
+}
+
+.cardHeading {
+    color: #F5F5F5;
+    margin: 2px 24px;
+}
+
+.cardHeadingContainer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.cardBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.cardParaContainer {
+    width: 80%;
+    text-align: center;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 16px 0px 4px 0px;
+    color: #54575A;
+}
+
+.dollar {
+    font-size: 16px;
+    color: #54575A;
+}
+
+.taxes {
+    font-size: 16px;
+    color: #909090;
+}
+
+.cardLine {
+    width: 80%;
+    margin: 8px;
+}
+
+.cardParagraph {
+    margin: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.AddOns {
+    margin: 16px 0px 32px 0px;
+}
+
+.footerContainer {
+    width: 100vw;
+    height: 200px;
+    margin-top: 100px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerNav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 24px;
+}
+
+.footer-item {
+    margin: 0px 20px;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
+
+.footer-anchor:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.copyrightContainer {
+    align-self: center;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*********************************************Media Queries - Medium*********************************************/
+/*********************************************Media Queries - Medium*********************************************/
+/*********************************************Media Queries - Medium*********************************************/
+@media screen and (max-width:805px) {
+    .PricingContainer {
+        width: 85vw;
+        margin-top: 40px;
+    }
+}
