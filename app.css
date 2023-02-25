@@ -275,7 +275,7 @@ body {
 @media screen and (max-width:700px) {
 
     body {
-        background-image: url(Images/BG_contact.png);
+        background-image: url(Images/BG_Image_Low.png);
     }
 
     .navbar-brand {

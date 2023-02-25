@@ -234,6 +234,9 @@ body {
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 @media screen and (max-width:805px) {
+    body {
+        background-image: url(Images/BG_Image_Low.png);
+    }
 
     .navbar-brand {
         margin-left: 0%;
