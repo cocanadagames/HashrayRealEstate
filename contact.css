@@ -18,7 +18,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 0px;
-    color: #6B6B6B;
+    color: #232323;
 }
 
 .myNav {
@@ -35,8 +35,8 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #6B6B6B;
 }
 
@@ -204,10 +204,13 @@ body {
     display: flex;
     justify-content: center;
     height: 24px;
+    padding: 0px;
 }
 
 .footer-item {
     margin: 0px 20px;
+    width: 70px;
+    text-align: center;
 }
 
 .footer-anchor {
@@ -227,8 +230,6 @@ body {
     color: rgb(255, 255, 255);
 }
 
-
-
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
@@ -237,4 +238,20 @@ body {
         width: 85vw;
         margin-top: 40px;
     }
+
+
+    .footer-item {
+        margin: 0px 10px;
+        width: 65px;
+    }
+
+    .email p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .mobile p {
+        font-size: 18px;
+    }
+
 }
