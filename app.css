@@ -278,6 +278,10 @@ body {
         background-image: url(Images/BG_contact.png);
     }
 
+    .navbar-brand {
+        margin-left: 0%;
+    }
+
     .IconContainer {
         display: none;
     }
