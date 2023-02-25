@@ -23,7 +23,7 @@ body {
 
 .myNav {
     width: 100%;
-    --bs-bg-opacity: 0;
+    /* --bs-bg-opacity: 0; */
 }
 
 .navbar-nav {

@@ -5,10 +5,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
     background-image: url(Images/BG_Image.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    overflow-x: hidden;
 }
 
 .navbar-brand {
@@ -23,7 +23,7 @@ body {
 
 .myNav {
     width: 100%;
-    --bs-bg-opacity: 0;
+    /* --bs-bg-opacity: 0; */
 }
 
 .navbar-nav {
@@ -272,7 +272,12 @@ body {
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
-@media screen and (max-width:805px) {
+@media screen and (max-width:700px) {
+
+    body {
+        background-image: url(Images/BG_contact.png);
+    }
+
     .IconContainer {
         display: none;
     }
