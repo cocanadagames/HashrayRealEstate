@@ -292,6 +292,7 @@ body {
     }
 
     .HeroDiv {
+        margin-top: 60px !important;
         width: 78vw;
     }
 
