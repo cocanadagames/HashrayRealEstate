@@ -40,10 +40,33 @@ body {
     color: #6B6B6B;
 }
 
-.contactContainer {
+.contactandmapContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
     width: 70%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.mapContainer {
+    width: 500px;
+}
+
+.contactContainer {
+    width: 600px;
     height: auto;
     margin-top: 100px;
+    margin-left: 40px;
+}
+
+.headingContactContainer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 24px;
 }
 
 .contactContainer h1 {
@@ -68,14 +91,15 @@ body {
 }
 
 .email,
-.mobile {
+.mobile,
+.location {
     display: flex;
 }
 
 .email p {
     font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 32px;
     color: #232528;
     margin-left: 8px;
@@ -83,8 +107,17 @@ body {
 
 .mobile p {
     font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #232528;
+    margin-left: 8px;
+}
+
+.location p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
     line-height: 32px;
     color: #232528;
     margin-left: 8px;
