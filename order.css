@@ -5,10 +5,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(Images/BG_contact.png);
     background-size: 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    background-color: #E5E7EB;
 }
 
 .navbar-brand {
@@ -42,6 +42,7 @@ body {
 
 .orderForm {
     width: 100%;
+    height: 1200px;
     margin: 0px;
     padding: 0px;
 }
@@ -90,9 +91,6 @@ body {
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 @media screen and (max-width:805px) {
-    body {
-        background-image: url(Images/BG_Image_Low.png);
-    }
 
     .navbar-brand {
         margin-left: 0%;
