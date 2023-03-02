@@ -41,46 +41,44 @@ body {
 }
 
 .contactandmapContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
     width: 70%;
-    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .mapContainer {
-    width: 500px;
+    min-width: 400px;
+    max-width: 400px;
+    border: 5px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.map {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .contactContainer {
-    width: 600px;
-    height: auto;
-    margin-top: 100px;
-    margin-left: 40px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-left: 24px;
 }
 
 .headingContactContainer {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700 !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
     line-height: 24px;
-}
-
-.contactContainer h1 {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 32px;
-    color: #232528;
 }
 
 .contactContainer p {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     color: #232528;
 }
@@ -99,7 +97,7 @@ body {
 .email p {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 32px;
     color: #232528;
     margin-left: 8px;
@@ -108,7 +106,7 @@ body {
 .mobile p {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 32px;
     color: #232528;
     margin-left: 8px;
@@ -117,7 +115,7 @@ body {
 .location p {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     color: #232528;
     margin-left: 8px;
@@ -196,6 +194,23 @@ body {
     color: #54575A;
 }
 
+.price::after {
+    content: '$';
+    font-size: 24px;
+    font-weight: 900;
+    vertical-align: super;
+}
+
+.dollar {
+    font-size: 16px;
+    color: #54575A;
+}
+
+.taxes {
+    font-size: 16px;
+    color: #909090;
+}
+
 .dollar {
     font-size: 16px;
     color: #54575A;
@@ -266,7 +281,7 @@ body {
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
-@media screen and (max-width:805px) {
+@media screen and (max-width:960px) {
     body {
         background-image: url(Images/BG_Image_Low.png);
     }
@@ -275,17 +290,33 @@ body {
         margin-left: 0%;
     }
 
-    .contactContainer {
-        width: 80vw;
-        margin-top: 60px !important;
-    }
-
 
     .PricingContainer {
         width: 90vw;
         margin-top: 40px;
     }
 
+    .contactandmapContainer {
+        width: 76%;
+        justify-content: center;
+    }
+
+    .mapContainer {
+        min-width: 100%;
+        max-width: 100%;
+        border: 5px solid gainsboro;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .contactContainer {
+        width: 100px !important;
+        flex-grow: 1;
+        margin-top: 16px;
+        margin-left: 8px;
+    }
 
     .footer-item {
         margin: 0px 10px;
@@ -293,12 +324,30 @@ body {
     }
 
     .email p {
-        font-size: 18px;
-        font-weight: 600;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #232528;
+        margin-left: 8px;
     }
 
     .mobile p {
-        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #232528;
+        margin-left: 8px;
+    }
+
+    .location p {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #232528;
+        margin-left: 8px;
     }
 
 }
