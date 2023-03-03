@@ -42,29 +42,46 @@ body {
 
 .contactandmapContainer {
     width: 70%;
+    height: auto;
+    /* border: 1px solid black; */
+
     display: flex;
-    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 40px;
 }
 
 .mapContainer {
-    min-width: 400px;
-    max-width: 400px;
-    border: 5px solid rgb(240, 240, 240);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    /* background-color: aqua; */
+    width: 30%;
+    height: 300px;
+    flex-basis: 300px;
+    overflow: hidden;
+    flex-grow: 1;
+    border: 4px solid rgb(237, 237, 237);
 }
 
 .map {
     width: 100%;
-    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .contactContainer {
-    flex-basis: 200px;
+    /* background-color: bisque; */
+    width: auto;
+    height: auto;
+    flex-basis: 300px;
     flex-grow: 1;
     margin-left: 24px;
+    overflow: hidden;
+}
+
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .headingContactContainer {
@@ -73,6 +90,7 @@ body {
     font-weight: 700 !important;
     font-size: 20px !important;
     line-height: 24px;
+    margin-left: 16px;
 }
 
 .contactContainer p {
@@ -81,6 +99,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     color: #232528;
+    margin-left: 16px;
 }
 
 .iconContainer {
@@ -92,6 +111,7 @@ body {
 .mobile,
 .location {
     display: flex;
+    margin: 0px 16px;
 }
 
 .email p {
@@ -281,7 +301,7 @@ body {
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
 /*********************************************Media Queries - Medium*********************************************/
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     body {
         background-image: url(Images/BG_Image_Low.png);
     }
@@ -290,7 +310,23 @@ body {
         margin-left: 0%;
     }
 
+    .contactandmapContainer {
+        width: 100%;
+    }
 
+    /* .mapContainer {
+        flex-basis: 100%;
+    } */
+
+    .contactContainer {
+        margin-left: 0px;
+        padding-top: 16px;
+        padding: 16px 24px 16px 16px;
+    }
+
+    .PricingContainer {
+        width: 95vw;
+    }
 
     .footer-item {
         margin: 0px 10px;
