@@ -60,6 +60,8 @@ body {
     overflow: hidden;
     flex-grow: 1;
     border: 4px solid rgb(237, 237, 237);
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .map {
@@ -312,6 +314,7 @@ body {
 
     .contactandmapContainer {
         width: 100%;
+        margin-top: 0px !important;
     }
 
     /* .mapContainer {
@@ -331,6 +334,15 @@ body {
     .footer-item {
         margin: 0px 10px;
         width: 65px;
+    }
+
+    .contactContainer p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #232528;
+        margin-left: 8px;
     }
 
     .email p {
@@ -353,8 +365,8 @@ body {
 
     .location p {
         font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: 400;
+        font-size: 14px;
         line-height: 32px;
         color: #232528;
         margin-left: 8px;
