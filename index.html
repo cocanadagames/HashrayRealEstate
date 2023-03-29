@@ -25,9 +25,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav justify-content-center">
-          <a class="nav-link active" aria-current="page" href="#pageTop">Home</a>
-          <a class="nav-link" href="#PricingID">Packages</a>
-          <a class="nav-link" href="#PricingID">Pricing</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#pricingMoveID">Packages</a>
+          <a class="nav-link" href="#pricingMoveID">Pricing</a>
           <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
@@ -72,6 +72,9 @@
     </div>
   </div>
 
+  <!-- MovetoContainer -->
+  <div  id="pricingMoveID"></div>
+
   <!-- Pricing Container -->
   <div class="PricingContainer" id="PricingID">
     <div class="cardPricing cardOne">
@@ -82,20 +85,26 @@
         <div class="imageContainer">
           <img src="Images/photo-camera.png" class="cardIcon" alt="" width="26px" height="26px">
         </div>
+        <div class="sqftSelector">
+          <select class="form-select selectorBasic" aria-label="Default select example">
+              <option value="149" selected>utpo 2500 sqft</option>
+              <option value="199">2501-3500 sqft</option>
+              <option value="249">3501-5000 sqft</option>
+          </select>
+      </div>    
       </div>
       <div class="cardBottom">
-        <h3 class="price">149</h3>
+        <h3 class="price priceBasic">149</h3>
         <p class="taxes">Plus taxes</p>
         <div class="cardParaContainer">
-          <p class="cardParagraph">30+ Photos</p>
-          <p class="cardParagraph">Photo Enhancements</p>
+          <p class="cardParagraph">30+ Photos (Enhanced)</p>
           <p class="cardParagraph">Property Website</p>
           <hr>
           <h6>ADD ONS</h6>
           <div class="AddOns">
             <p class="cardParagraph">Virtual Staging ($30 per photo)</p>
-            <p class="cardParagraph">Floor Plan ($99)</p>
-            <p class="cardParagraph">Matterport ($149)</p>
+            <p class="cardParagraph FPBasic">Floor Plan ($99)</p>
+            <p class="cardParagraph VTBasic">360 Virtual Tour ($149)</p>
             <p class="cardParagraph">Twilight ($199 for 2-5 photos)</p>      
             <p class="cardParagraph">Drone Package ($249)</p>      
           </div>      
@@ -113,21 +122,27 @@
           <img src="Images/camcorder.png" class="cardIcon" alt="" width="32px" height="32px">
           <img src="Images/photo-camera.png" class="cardIcon" alt="" width="26px" height="26px">
         </div>
+        <div class="sqftSelector">
+            <select class="form-select selectorStandard" aria-label="Default select example">
+                <option value="349" selected>utpo 2500 sqft</option>
+                <option value="449">2501-3500 sqft</option>
+                <option value="549">3501-5000 sqft</option>
+            </select>
+        </div> 
       </div>
       <div class="cardBottom">
-        <h3 class="price">349</h3>
+        <h3 class="price priceStandard">349</h3>
         <p class="taxes">Plus taxes</p>
         <div class="cardParaContainer">
           <p class="cardParagraph">4k Cinematic Video (1-2 mins)</p>
           <p class="cardParagraph">30+ Photos (Enhanced)</p>
-          <p class="cardParagraph">Digital Twilight (2)</p>
           <p class="cardParagraph">Property Website</p>
           <hr>
           <h6>ADD ONS</h6>
           <div class="AddOns">
             <p class="cardParagraph">Virtual Staging ($30 per photo)</p>
-            <p class="cardParagraph">Floor Plan ($99)</p>
-            <p class="cardParagraph">Matterport ($149)</p>
+            <p class="cardParagraph FPStandard">Floor Plan ($99)</p>
+            <p class="cardParagraph VTStandard">360 Virtual Tour ($149)</p>
             <p class="cardParagraph">Twilight ($199 for 2-5 photos)</p>
             <p class="cardParagraph">Social Media Reels ($99)</p>
             <p class="cardParagraph">Drone Package ($249)</p>  
@@ -147,25 +162,31 @@
           <img src="Images/photo-camera.png" class="cardIcon" alt="" width="26px" height="26px">
           <img src="Images/camcorder.png" class="cardIcon" alt="" width="32px" height="32px">
         </div>
+        <div class="sqftSelector">
+            <select class="form-select selectorProfessional" aria-label="Default select example">
+                <option value="449" selected>utpo 2500 sqft</option>
+                <option value="599">2501-3500 sqft</option>
+                <option value="699">3501-5000 sqft</option>
+            </select>
+        </div> 
       </div>
       <div class="cardBottom">
-        <h3 class="price">549</h3>
+        <h3 class="price priceProfessional">549</h3>
         <p class="taxes">Plus taxes</p>
         <div class="cardParaContainer">
           <p class="cardParagraph">Aerial Video and Photos (5-10)</p>
           <p class="cardParagraph">4k Cinematic Video (1-2 mins)</p>
           <p class="cardParagraph">30+ Photos (Enhanced)</p>
-          <p class="cardParagraph">Digital Twilight (2)</p>
           <p class="cardParagraph">Social Media Reel</p>
           <p class="cardParagraph">Property Website</p>
           <hr>
           <h6>ADD ONS</h6>
           <div class="AddOns">
             <p class="cardParagraph">Virtual Staging ($30 per photo)</p> 
-            <p class="cardParagraph">Floor Plan ($99)</p> 
-            <p class="cardParagraph">Matterport ($149)</p> 
+            <p class="cardParagraph FPProfessional">Floor Plan ($99)</p> 
+            <p class="cardParagraph VTProfessional">360 Virtual Tour ($149)</p> 
             <p class="cardParagraph">Twilight ($199 for 2-5 photos)</p>
-            <p class="cardParagraph">&#x200B</p>    
+            <p class="cardParagraph">&#x200B</p>   
           </div> 
         </div>
 
@@ -183,9 +204,16 @@
           <img src="Images/photo-camera.png" class="cardIcon" alt="" width="26px" height="26px">
           <img src="Images/camcorder.png" class="cardIcon" alt="" width="32px" height="32px">
         </div>
+        <div class="sqftSelector">
+            <select class="form-select selectorStateOfTheArt" aria-label="Default select example">
+                <option value="649" selected>utpo 2500 sqft</option>
+                <option value="799">2501-3500 sqft</option>
+                <option value="899">3501-5000 sqft</option>
+            </select>
+        </div> 
       </div>
       <div class="cardBottom">
-        <h3 class="price">649</h3>
+        <h3 class="price priceStateOfTheArt">649</h3>
         <p class="taxes">Plus taxes</p>
         <div class="cardParaContainer">
           <p class="cardParagraph">Aerial Video and Photos (5-10)</p>
@@ -193,14 +221,13 @@
           <p class="cardParagraph">30+ Photos (Enhanced)</p>
           <p class="cardParagraph">360 Virtual Tour</p>
           <p class="cardParagraph">Floorplan</p>
-          <p class="cardParagraph">Digital Twilight (2)</p>
           <p class="cardParagraph">Social Media Reel</p>
           <p class="cardParagraph">Property Website</p>
           <hr>
           <h6>ADD ONS</h6>
           <div class="AddOns">
             <p class="cardParagraph">Virtual Staging ($30 per photo)</p> 
-            <p class="cardParagraph">Twilight ($199 for 1-5 photos)</p>
+            <p class="cardParagraph">Twilight ($199 for 2-5 photos)</p>
              <p class="cardParagraph">&#x200B</p>
           </div>
         </div>
@@ -213,19 +240,19 @@
   <footer class="footerContainer" id="footerID">
     <div class="footerNavContainer">
       <ul class="footerNav">
-        <li class="footer-item"><a href="#pageTop" class="footer-anchor">Home</a></li>
-        <li class="footer-item"><a href="#PricingID" class="footer-anchor">Packages</a></li>
-        <li class="footer-item"><a href="#PricingID" class="footer-anchor">Pricing</a></li>
+        <li class="footer-item"><a href="#" class="footer-anchor">Home</a></li>
+        <li class="footer-item"><a href="#pricingMoveID" class="footer-anchor">Packages</a></li>
+        <li class="footer-item"><a href="#pricingMoveID" class="footer-anchor">Pricing</a></li>
         <li class="footer-item"><a href="contact.html" class="footer-anchor">Contact</a></li>
       </ul>
     </div>
     <div class="copyrightContainer">
       <p class="copyright">© 2023 Hashray</p>
     </div>    
-  </footer>
+  </footer>  
   
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 
 

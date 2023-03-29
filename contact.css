@@ -172,7 +172,7 @@ body {
 .cardTop {
     /* background-color: #56CCF2; */
     background: linear-gradient(135deg, #2F80ED, #56CCF2);
-    height: 160px;
+    height: 200px;
     border-radius: 12px 12px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -197,13 +197,17 @@ body {
     margin-bottom: 8px;
 }
 
+.sqftSelector {
+    width: 60%;
+    margin: 16px 24px;
+}
 
 .cardBottom {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 480px;
+    height: 460px;
 }
 
 .cardParaContainer {
@@ -212,7 +216,11 @@ body {
 }
 
 
-.price {
+.price,
+.priceBasic,
+.priceStandard,
+.priceProfessional,
+.priceStateOfTheArt {
     font-weight: 800;
     font-size: 40px;
     margin: 16px 0px 4px 0px;
