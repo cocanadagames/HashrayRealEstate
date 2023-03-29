@@ -143,12 +143,11 @@ body {
     margin-left: 8px;
 }
 
-
 .PricingContainer {
-    width: 72vw;
+    width: 74vw;
     height: auto;
     /* background-color: antiquewhite; */
-    margin-top: 40px;
+    margin-top: 100px;
     align-self: center;
     display: flex;
     flex-wrap: wrap;
@@ -156,11 +155,14 @@ body {
     align-items: center;
 }
 
+
 .cardPricing {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     margin: 12px 24px 12px 24px;
-    min-height: 400px;
-    flex-basis: 250px;
+    min-height: 700px;
+    flex-basis: 280px;
     flex-grow: 1;
     background-color: #F8F8F8;
     border-radius: 12px;
@@ -177,8 +179,8 @@ body {
 }
 
 .imageContainer {
-    align-self: flex-end;
-    margin: 0px 16px;
+    align-self: flex-start;
+    margin: 0px 8px;
 }
 
 .cardIcon {
@@ -187,27 +189,28 @@ body {
 
 .cardHeading {
     color: #F5F5F5;
-    margin: 2px 24px;
+    margin: 16px 0px 0px 24px;
 }
 
 .cardHeadingContainer {
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 
 .cardBottom {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: auto;
+    height: 480px;
 }
 
 .cardParaContainer {
     width: 80%;
     text-align: center;
 }
+
 
 .price {
     font-weight: 800;
@@ -221,16 +224,6 @@ body {
     font-size: 24px;
     font-weight: 900;
     vertical-align: super;
-}
-
-.dollar {
-    font-size: 16px;
-    color: #54575A;
-}
-
-.taxes {
-    font-size: 16px;
-    color: #909090;
 }
 
 .dollar {
@@ -259,7 +252,6 @@ body {
     margin: 16px 0px 32px 0px;
 }
 
-
 .heroButtonPricingContainer {
     margin-top: 8px;
     border: none;
@@ -271,6 +263,9 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-family: 'Roboto';
     font-weight: 500;
+    margin-bottom: 40px;
+    align-self: center;
+    justify-self: center;
 }
 
 .footerContainer {
